@@ -1,0 +1,104 @@
+{
+  "name": "SomeProject",
+  "description": "Blank Process",
+  "main": "Excercise11.2Performer1.xaml",
+  "dependencies": {
+    "ExcerciseLibrary": "[1.0.2]",
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.Mail.Activities": "[1.9.3]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Excercise2.1.xaml",
+      "uniqueId": "cce5d260-bd6f-4ab2-bc30-22b4caeff259",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Exercise3.1.xaml",
+      "uniqueId": "c716c6b1-89db-4d62-abf2-b53107f4a15e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Exercise 4.2_Totalsales.xaml",
+      "uniqueId": "88f1d734-db83-4289-aef3-69b2c221f6be",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "excercise5.1.xaml",
+      "uniqueId": "631880fd-4ae5-4c94-bbc8-7b3158a403fb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "solution 3.3 Alternate characters in upper and lower case.xaml",
+      "uniqueId": "ea8408a5-eca6-4b5f-8259-44facf526158",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Excercise3.3(challenge).xaml",
+      "uniqueId": "22f162b1-fe62-424c-894c-979c109677c1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Excercise 11.1Acme.xaml",
+      "uniqueId": "065f67ec-84da-491b-a66b-97bb8b138d83",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Credential from asset.xaml",
+      "uniqueId": "2c0f3dae-aa72-4ca8-a6b7-6732303522fe",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Excercise11.2Performer1.xaml",
+      "uniqueId": "980a78ed-d0bf-4a94-9f30-f1357812aa9c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}

@@ -1,0 +1,7 @@
+﻿195145	DE763212	Professional Services
+849244	FR322345	Various paper supplies
+911793	RO125678	Beverages and Catering
+615153	FR329083	Various paper supplies
+912531	RO212121	Beverages and Catering
+222931	DE456232	Concierge Services
+600876	RO212121	IT Support
