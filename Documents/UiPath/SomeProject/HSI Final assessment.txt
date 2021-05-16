@@ -1,0 +1,267 @@
+Excercise 2.1--To check the obtained number is Even or odd-Variables chapter(data validation manually..no try catch)
+Excercise 2.2---Given an array "A", your task is to find the sum of
+		in the array.
+		Perform the same in 2 different methods:
+		1.Get the size of the array, get the array elements
+		by using an input dialog activity, and perform the
+		sum operation.
+		2.Find the sum of "N" number of elements from
+		the array (Optional).
+
+Chapter 3--data manipulation
+
+Excercise 3.1Create and submit a project which creates an array of Indian city names, all in lower-case strings.
+
+Use Regex wizard builder to search cities Bangalore, Mumbai and Delhi from the array and output the reverse of the string
+
+You can use console or message box to display your output.
+For example, if the strings are "bangalore", "mumbai" and "delhi", your program should output:
+
+erolagnab
+iabmum
+ihled
+
+
+Excercise 3.2
+Create a dictionary with key and value pair:
+Key will be month number
+Value will be month name
+Accept a date in d/mm/yyyy format and convert it to d MMM yyyy format.
+e.g. if the given date is 1/10/2020, convert it into the format 1 Oct 2020
+
+Hint:
+Split the given date, extract the month number, and change it to month name using info from
+
+
+Excercise 3.3
+
+Create and submit a project which creates an array of Indian city names, all in lower-case strings.
+
+Use Regex wizard builder to search cities Bangalore, Mumbai and Delhi from the array and do the following:
+
+Alternate characters in upper and lower case
+Add a space after each character in the string
+You can use console or message box to display your output.
+For example, if the strings are "bangalore", "mumbai" and "delhi", your program should output:
+
+BaNgAlOrE
+b a n g a l o r e
+MuMbAi
+m u m b a i
+DeLhI
+d e l h i
+
+
+
+
+	Excel Automation and Datatables
+
+Excecise 4.1
+Create an Excel file that contains student data: (Name, Student ID, Date of Birth).
+The file should contain at least 5 records.
+Save the file in a desired location.
+
+Create and submit a project to do the following:
+
+1. Calculate the age of all the students in the file, based on their Date of Birth
+2. Display the age of all the students
+
+
+
+Excercise 4.2
+Preliminary Task:
+Download the following file to your computer: https://www.contextures.com/SampleData.zip
+
+Create and submit a project that does the following:
+Loads the downloaded Excel file
+Calculates the total sales for each region
+Displays, in a message box, the region with the most sales and the region with the least sales, with the corresponding sales amounts
+
+
+
+Excercise4.3
+
+Preliminary Tasks:
+Use the following Google Form as input for this project: https://docs.google.com/forms/d/e/1FAIpQLSd2khaLtBdgBy4ydk7gIVJi2grMTM-DxmMKgAms_7ATAGHhXA/viewform
+Create an Excel file with minimum 5 records with the fields [Full Name, Email, Phone Number, Past Experience, Skills, Educational Qualifications, Position Applied For] and place the file in a desired location
+Create and submit a project to:
+Fill the Google Form automatically, using the values mentioned in the Excel file
+Repeat the process for all the records in the Excel file
+
+
+		5.Ui Interactions
+Excercise 5.1
+Create and submit a project which asks for a city name from the user.
+And then does the following:
+
+Open a browser, go to google.co.in and search 'time in [city_entered]'
+Scrape the time displayed by Google
+Close the browser
+Open Notepad and type the scraped time
+
+
+excercise 5.2
+Create and submit a project which asks the user to enter [from_city_name] and [to_city_name], and then does the following:
+
+1. Open a browser, go to distancecalculator.net
+2. Enter the user input and scrape the distance displayed
+3. Display the distance
+
+
+Excercise 5.3
+
+Create and submit a project which asks the user to enter a product name, and then does the following:
+
+1. Open a browser, go to amazon.in
+2. Type the product name in the search bar and search it
+3. Display the first 20 names and prices
+
+
+Excercise 5.4
+
+Create a Google Peek Project!
+
+Create and submit a project which asks the user to enter a [search_topic], then:
+
+Open a browser, go to google.co.in
+Search for [search_topic]
+Scrape the title names of the first 5 results
+Store the output in a datatable
+Open Notepad, write the contents of the datatable variable into Notepad
+
+
+Excercise 5.5
+Create and submit a project which asks for [city_name] from the user.
+And then does the following:
+
+Scrape Google for the temperature and weather in [city_name]
+Process the result and suggest a clothing type to the user
+For example, if it is winter, suggest wearing a jacket. If it's summer, suggest light cotton clothing. If rain is forecast, suggest bringing an umbrella.
+
+
+		6.Selector
+
+Excercise 6.1
+Create and submit a project which does the following:
+
+Ask the user to input any date (e.g. 1,2,3...30,31)
+Go to https://jqueryui.com/datepicker/ and click the correct date in the current month
+
+
+Excercise 6.2
+
+Create and submit a project which does the following:
+
+Ask the user to input a source city
+Ask the user to input a destination city
+Ask the user to enter a date in DD/MM/YYYY format
+Go to ibibo.com and search for flights from the source city to the destination city on the specified date
+Display in a message box "These are the available flights from [source city] to [destination city] on 
+
+
+Excercise 6.3
+RPA Automation Challenge!
+
+Go to http://rpachallenge.com
+Click the "Download Excel" button to download a file containing 10 rows with user data 
+Create a workflow that will input the data from each of the spreadsheet rows into the form on the web page
+Beware! Every time the form is submitted, the form fields will change order and position on the web page! The workflow must correctly identify where the data must be entered every time!
+The challenge is to get all the 10 rows of spreadsheet data submitted on the web page as quickly as possible.
+The clock starts when you click the "Start" button; until then, you can submit the form as many times as you want.
+Hint: Use relative anchors
+
+
+		8.pdf automation
+
+Excercise 8.1
+Download the zip file shown below and unzip it into a folder.
+Use the PDF files in the folder as input for this project.
+
+Create and submit a project which does the following:
+
+Navigate to the folder containing the PDF files and loop through each PDF file
+Use the Read PDF Text activity to read text from PDF and write the result to a text file
+Repeat the process for all the 5 PDF files in the folder
+Check the program with the following test case:
+Copy a text file into the folder containing the PDF files.
+The project should ignore the text file and only traverse through the PDF files.
+
+
+Excercise 8.2
+ownload the zip file shown below and unzip it into a folder.
+Use the PDF files in the folder as input for this project.
+
+Create and submit a project which does the following:
+
+The workflow should scrape the following information from the PDF (Invoice Number, Customer ID, Customer Name, Total Amount)
+The workflow should then write the scraped information to an Excel file
+Repeat the process for all the 5 invoices in the folder
+
+Excercise 8.3
+Download the zip file shown below and unzip it into a folder.
+Use the PDF files in the folder as input for this project.
+
+Create and submit a project which does the following:
+
+Loop through the scanned PDF files and extract the following values (Product Name, Model Name, Report Number)
+Write the scraped values into a text file
+Repeat the process for all the 3 PDF files in the folder
+
+		9..Exception handling****************
+
+
+Exception 9.1
+Note: Use all your concepts of Project Organization (Invoke Workflow, Library and State Machine) wherever possible. Your aim is to make a clean, understandable project which is as crash-proof as possible.
+
+Create and submit a project that has an array and does the following:
+
+Ask the user for the array size and to input number of elements
+Ask for a value "n" from the user
+Find the sum of all elements
+Find the sum of the first "n" odd-valued elements
+For example: If the array is {1,2,3,4,5,6,7,8,9,10} and the value of "n" is 3, then the sum of all elements is 55, and the sum of the first three odd positions (1,3,5) is 12.
+
+Please make sure that the project handles the scenarios below:
+
+Create a library to read values into the list
+Validations/Exceptions:
+Check for negative values and strings
+The list has been initialized
+Reads in only integers
+
+
+Exception 9.2
+
+Note: Use all your concepts of Project Organization (Invoke Workflow, Library and State Machine) wherever possible. Your aim is to make a clean, understandable project which is as crash-proof as possible.
+
+Create an Excel file that contains 5 records of student data (StudentName, StudentID, DateOfBirth.
+Save the file in a desired location.
+Create and submit a project that:
+Calculates the age of each student listed in the Excel file
+Displays the age of each student
+Please make sure that your project takes care of the following scenarios:
+
+Handles the File Not Found exception
+Makes sure the Input (DoB) is a valid input
+
+
+Excecise 9.3
+
+Create and submit a project that re-does the Goibibo Booking exercise in a modified format.
+
+Validations/Exceptions to be taken care of:
+
+Check for valid inputs for source and destination city (user should enter valid city names and user should be notified for invalid inputs)
+Make sure the user only enters valid dates (e.g. 29 days in February, departure date cannot be in the past, etc.)
+Date range should be from the current date till 2 years (or whatever is applicable in the current pandemic situation)
+Note: No library components need to be created
+
+
+StrConv(selectsrc,vbstrconv.ProperCase).Equals(sourceCityname)
+ 	       	
+
+
+
+
+
+
